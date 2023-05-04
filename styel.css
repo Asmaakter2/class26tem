@@ -1,0 +1,132 @@
+.client .text h3{
+    font-weight: 700;
+    margin-bottom: 30px;
+    position: relative;
+    margin-top: 15px;
+}
+.client .text h3::after{
+    content: "";
+    position: absolute;
+    top: 125%;
+    left: 0;
+    background-color: rgba(0, 0, 255, 0.623);
+    width: 50px;
+    height: 2px;
+}
+.logo img {
+    position: relative;
+}
+.logo img::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+
+}
+.text h6{
+    color: rgba(0, 0, 255, 0.733);
+}
+.text h3{
+    font-weight: 700;
+    margin-bottom: 30px;
+    position: relative;
+    margin-top: 15px;
+}
+.text h3::after{
+    content: "";
+    position: absolute;
+    top: 125%;
+    left: 45%;
+    background-color: rgba(0, 0, 255, 0.623);
+    width: 50px;
+    height: 2px;
+}
+.text p{
+    color: #606060;
+}
+/* team-section */
+.team-photo img{
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.team-content .team-text p{
+ color: #fff;
+ margin-top: 18px;
+ margin-left: 10px;
+ font-size: 14px;
+}
+.team-image{
+    position: relative;
+}
+.team-content{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    margin: auto;
+}
+.bottom-content h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+/* footer css */
+.footer{
+    background-color: #111 ;
+    color: #fff;
+}
+.footer p{
+   color: #d4caca;
+}
+.footer-bottom{
+    margin-bottom: 0;
+}
+.footer a{
+    color: #fff;
+}
+.footer-bottom{
+    border-top: 1px solid #fff;
+}
+.footer-widget h3{
+    font-size: 22px;
+    border-left: 1px solid blue;
+    padding-left: 20px;
+    margin-bottom: 20px;
+ 
+}
+.footer-widget p{
+    color: #fff;
+    margin-top: 20px;
+}
+.footer-widget ul{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.footer-widget ul li{
+    margin: 10px 0;
+}
+.footer-widget ul li a{
+    text-decoration: none;
+    transition: .5s;
+}
+.footer-widget ul li a:hover{
+    letter-spacing: 1.5px;
+    color: #e73c3c;
+}
+.widget-social ul{
+    display: flex;
+}
+.widget-social ul li {
+    padding: 10px 0;
+    margin: 0 !important;
+}
+
+.widget-social ul li a{
+    font-size: 20px;
+    padding: 10px 10px;
+}
